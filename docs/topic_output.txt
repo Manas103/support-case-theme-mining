@@ -1,0 +1,32 @@
+=== TF-IDF + NMF theme discovery ===
+cases: 40000, vocabulary size: 379
+generation: 1.11s, NMF fit: 5.04s, oracle alignment: 0.01s
+NMF components: 12
+oracle alignment purity: 0.6319
+component -> aligned theme:
+  0: integration_api_failure
+  1: mobile_app_defect
+  2: feature_request
+  3: licensing_entitlement_confusion
+  4: billing_invoice_dispute
+  5: notification_alert_noise
+  6: onboarding_setup_difficulty
+  7: documentation_gap
+  8: login_authentication_failure
+  9: security_vulnerability_concern
+  10: performance_degradation
+  11: data_loss_corruption
+
+top terms per component:
+  0: records, endpoint, stopped, error, sync, salesforce, updating, connector
+  1: app, mobile, screen, shows, devices, android, blank, charts
+  2: know, let, help, additional, logs, need, spreadsheet, directly
+  3: premium, count, user, console, admin, shown, seat, disagrees
+  4: appeared, statement, month, looks, invoice, credit, charge, duplicate
+  5: notifications, alerts, alert, priority, low, drowning, like, specific
+  6: team, members, affecting, new, checklist, seeing, onboarding, save
+  7: setup, guide, step, docs, settings, exists, references, skips
+  8: login, page, password, returns, invalid, correct, credentials, single
+  9: log, audit, token, changes, reset, permission, level, capture
+  10: used, times, export, takes, bulk, past, climbed, week
+  11: left, record, failed, copies, conflicting, account, migrated, rollback

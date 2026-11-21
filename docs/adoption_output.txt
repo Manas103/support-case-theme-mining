@@ -1,0 +1,7 @@
+=== Matched-control adoption-loss estimate ===
+accounts: 1500, quarters: 8
+panel build: 0.10s, matched-control estimate: 0.03s
+matched pairs (first risk-theme exposure cohort): 1491
+mean treated adoption change (quarter of exposure -> next quarter): -17.887
+mean matched-control adoption change: 0.218
+mean matched difference (lost points): -18.105 (std 9.439)

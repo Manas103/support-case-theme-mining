@@ -1,0 +1,17 @@
+=== Supervised theme classifier ===
+train: 32000, test: 8000
+fit + predict + score: 1.17s
+macro-F1: 0.8620
+per-theme F1:
+  billing_invoice_dispute: 0.8542
+  data_loss_corruption: 0.8659
+  documentation_gap: 0.8619
+  feature_request: 0.8472
+  integration_api_failure: 0.8610
+  licensing_entitlement_confusion: 0.8757
+  login_authentication_failure: 0.8745
+  mobile_app_defect: 0.8559
+  notification_alert_noise: 0.8548
+  onboarding_setup_difficulty: 0.8635
+  performance_degradation: 0.8574
+  security_vulnerability_concern: 0.8716

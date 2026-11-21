@@ -1,0 +1,35 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.0, pluggy-1.6.0 -- C:\Users\Manas\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\support-case-theme-mining
+configfile: pytest.ini
+plugins: anyio-4.14.1
+collecting ... collected 25 items
+
+tests/test_adoption.py::test_panel_covers_all_accounts_and_8_quarters PASSED [  4%]
+tests/test_adoption.py::test_adoption_score_stays_in_bounds PASSED       [  8%]
+tests/test_adoption.py::test_matched_control_difference_is_negative_and_measured PASSED [ 12%]
+tests/test_adoption.py::test_matched_pairs_cover_most_accounts PASSED    [ 16%]
+tests/test_adoption.py::test_control_group_shows_no_designed_effect PASSED [ 20%]
+tests/test_adoption.py::test_recomputing_with_every_hit_not_just_first_measures_a_smaller_effect PASSED [ 24%]
+tests/test_brief_oracle.py::test_real_brief_has_zero_oracle_mismatches PASSED [ 28%]
+tests/test_brief_oracle.py::test_oracle_catches_a_deliberately_corrupted_figure PASSED [ 32%]
+tests/test_brief_oracle.py::test_oracle_does_not_falsely_flag_a_clean_sentence_when_another_is_corrupted PASSED [ 36%]
+tests/test_brief_oracle.py::test_every_rendered_sentence_names_exactly_one_known_figure PASSED [ 40%]
+tests/test_cases.py::test_generates_40000_cases_across_12_themes PASSED  [ 44%]
+tests/test_cases.py::test_theme_distribution_is_roughly_balanced PASSED  [ 48%]
+tests/test_cases.py::test_accounts_within_declared_range PASSED          [ 52%]
+tests/test_cases.py::test_deterministic_given_same_seed PASSED           [ 56%]
+tests/test_cases.py::test_different_seeds_produce_different_text PASSED  [ 60%]
+tests/test_cases.py::test_top3_risk_themes_are_real_themes PASSED        [ 64%]
+tests/test_classifier.py::test_macro_f1_is_measured_and_reported PASSED  [ 68%]
+tests/test_classifier.py::test_macro_f1_is_not_suspiciously_perfect PASSED [ 72%]
+tests/test_classifier.py::test_held_out_split_is_80_20 PASSED            [ 76%]
+tests/test_classifier.py::test_every_theme_has_a_reported_f1 PASSED      [ 80%]
+tests/test_topics.py::test_nmf_produces_exactly_12_components PASSED     [ 84%]
+tests/test_topics.py::test_every_case_assigned_to_a_component PASSED     [ 88%]
+tests/test_topics.py::test_oracle_alignment_purity_is_well_above_chance PASSED [ 92%]
+tests/test_topics.py::test_oracle_alignment_is_a_valid_one_to_one_mapping PASSED [ 96%]
+tests/test_topics.py::test_oracle_alignment_matches_independent_reimplementation PASSED [100%]
+
+============================= 25 passed in 14.05s =============================

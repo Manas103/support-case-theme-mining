@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# logs
+*.log
+
+# regenerable: nothing is committed; every case, panel, and model artifact
+# in this repo is produced in memory at run time by casemine/cases.py,
+# topics.py, classifier.py, and adoption.py (see README "Building and
+# running" for the exact commands that regenerate it)
+data/
